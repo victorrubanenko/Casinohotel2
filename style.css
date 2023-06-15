@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.usp {
+  background: url(img/bg.png);
+  display: flex;
+  justify-content: center;
+  padding: 120px 0px;
+  background-size: cover;
+}
+
+body {
+  background: url(img/phone.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1117px;
+  margin: 0 auto;
+}
+
+.text {
+  padding: 30px 0px;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+.page .photo, .page .description {
+  margin: auto 0;
+  width: 49%;
+}
+.page .photo img {
+  width: 100%;
+}
+.page .description {
+  font-size: 16px;
+  color: white;
+}
+
+.form {
+  background: url(img/final.png);
+  display: flex;
+  justify-content: center;
+  padding: 120px 0px;
+  background-size: cover;
+}
+.form .form_inner {
+  background: rgba(0, 0, 0, 0.87);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  padding: 40px;
+}
+.form .form_inner .text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
